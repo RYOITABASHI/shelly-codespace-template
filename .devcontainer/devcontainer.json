@@ -1,0 +1,8 @@
+{
+  "name": "Shelly Mobile Dev",
+  "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": { "version": "20" }
+  },
+  "postCreateCommand": "npm install -g @anthropic-ai/claude-code"
+}
